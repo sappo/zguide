@@ -15,6 +15,13 @@ style = "autumn"
 [markup.goldmark.renderer]
 unsafe = true
 
+[languages]
+  [languages.en]
+    weight = 1
+  [languages.kr]
+    # languagedirection = "rtl"
+    weight = 2
+
 [params]
   BookFlatSection = true
 
